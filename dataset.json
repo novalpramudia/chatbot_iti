@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "halo", "hai", "selamat pagi", "selamat siang", "selamat sore",
+        "hei", "hi", "assalamualaikum", "permisi", "halo bot"
+      ],
+      "responses": [
+        "Halo! Selamat datang di layanan informasi akademik Prodi Teknik Informatika ITI. Ada yang bisa saya bantu?",
+        "Hai! Saya siap membantu Anda mendapatkan informasi akademik. Silakan tanyakan apa yang Anda butuhkan!",
+        "Selamat datang! Ada pertanyaan seputar akademik Teknik Informatika ITI?"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": [
+        "terima kasih", "makasih", "bye", "sampai jumpa", "selesai",
+        "ok terima kasih", "cukup", "sudah", "thanks", "oke makasih"
+      ],
+      "responses": [
+        "Terima kasih telah menggunakan layanan kami. Semoga informasi yang diberikan bermanfaat!",
+        "Sama-sama! Jangan ragu untuk bertanya lagi jika ada yang dibutuhkan.",
+        "Baik, sampai jumpa! Sukses untuk kegiatan akademiknya!"
+      ]
+    },
+    {
+      "tag": "krs",
+      "patterns": [
+        "cara mengisi krs", "kapan pengisian krs", "krs semester ini",
+        "jadwal krs", "prosedur krs", "pengisian kartu rencana studi",
+        "krs online", "batas waktu krs", "krs tidak bisa diisi", "lupa isi krs"
+      ],
+      "responses": [
+        "Pengisian KRS dilakukan secara online melalui portal akademik ITI (siakad.iti.ac.id). Jadwal pengisian KRS biasanya diumumkan di awal semester. Pastikan Anda tidak memiliki tanggungan administrasi sebelum mengisi KRS.",
+        "KRS (Kartu Rencana Studi) diisi melalui sistem SIAKAD ITI. Periode pengisian KRS mengikuti kalender akademik. Hubungi bagian akademik jika mengalami kendala teknis.",
+        "Untuk pengisian KRS, login ke portal SIAKAD ITI dengan NIM dan password Anda. KRS wajib disetujui oleh Dosen Pembimbing Akademik (DPA) sebelum batas waktu yang ditentukan."
+      ]
+    },
+    {
+      "tag": "jadwal_kuliah",
+      "patterns": [
+        "jadwal kuliah", "jadwal perkuliahan", "mata kuliah semester ini",
+        "jadwal kelas", "kapan kuliah", "ruang kelas", "jam kuliah",
+        "jadwal semester genap", "jadwal semester ganjil", "mata kuliah wajib"
+      ],
+      "responses": [
+        "Jadwal perkuliahan Prodi Teknik Informatika ITI dapat dilihat di portal SIAKAD atau papan pengumuman akademik. Jadwal disesuaikan setiap semester berdasarkan mata kuliah yang diprogram.",
+        "Untuk melihat jadwal kuliah, akses SIAKAD ITI dan pilih menu Jadwal Kuliah. Jadwal juga diumumkan melalui grup resmi mahasiswa.",
+        "Jadwal perkuliahan semester ini dapat diakses melalui portal akademik ITI. Pastikan KRS Anda sudah disetujui untuk melihat jadwal yang sesuai."
+      ]
+    },
+    {
+      "tag": "nilai",
+      "patterns": [
+        "lihat nilai", "cek nilai", "nilai ujian", "ipk saya",
+        "transkrip nilai", "nilai semester", "hasil ujian", "nilai uts",
+        "nilai uas", "indeks prestasi", "ip semester"
+      ],
+      "responses": [
+        "Nilai akademik dapat dilihat melalui portal SIAKAD ITI. Login dengan NIM dan password, kemudian pilih menu Nilai atau Transkrip Akademik.",
+        "Untuk mengecek nilai, akses SIAKAD ITI → Akademik → Hasil Studi. Nilai biasanya diinput dosen dalam 2 minggu setelah ujian.",
+        "IPK dan nilai semester tersedia di portal SIAKAD ITI. Jika ada nilai yang bermasalah, hubungi Koordinator Program Studi Teknik Informatika."
+      ]
+    },
+    {
+      "tag": "tugas_akhir",
+      "patterns": [
+        "syarat tugas akhir", "pendaftaran ta", "cara daftar skripsi",
+        "bimbingan ta", "sidang ta", "proposal ta", "judul skripsi",
+        "dosen pembimbing ta", "syarat sidang", "lama pengerjaan ta"
+      ],
+      "responses": [
+        "Syarat mengambil Tugas Akhir (TA) di Prodi Teknik Informatika ITI: telah lulus minimal 120 SKS, IPK ≥ 2.00, dan sudah lulus mata kuliah prasyarat. Pendaftaran TA melalui SIAKAD.",
+        "Proses Tugas Akhir meliputi: pengajuan proposal → penunjukan pembimbing → bimbingan → seminar proposal → pengerjaan → sidang akhir. Konsultasikan dengan Koordinator TA untuk informasi lebih lanjut.",
+        "Untuk mendaftar Tugas Akhir, lengkapi formulir pendaftaran di bagian akademik dan pastikan syarat akademik terpenuhi. Proses bimbingan dilakukan bersama dosen pembimbing yang ditunjuk."
+      ]
+    },
+    {
+      "tag": "lokasi",
+      "patterns": [
+        "lokasi kampus", "dimana kampus iti", "alamat iti", "ruang dekan",
+        "ruang prodi", "gedung kuliah", "parkir kampus", "kantin kampus",
+        "perpustakaan iti", "laboratorium informatika"
+      ],
+      "responses": [
+        "Institut Teknologi Indonesia (ITI) berlokasi di Jl. Raya Puspiptek, Serpong, Tangerang Selatan, Banten 15320.",
+        "Prodi Teknik Informatika ITI berada di Gedung A lantai 2. Laboratorium Informatika ada di Gedung B. Perpustakaan ITI tersedia di Gedung Pusat.",
+        "Kampus ITI terletak di kawasan Puspiptek Serpong. Untuk denah lengkap, tersedia di website resmi ITI (www.iti.ac.id)."
+      ]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "biaya kuliah", "ukt", "spp", "cara bayar kuliah", "cicilan ukt",
+        "batas pembayaran", "beasiswa", "keringanan ukt", "tagihan akademik",
+        "biaya semester"
+      ],
+      "responses": [
+        "Informasi biaya kuliah dan UKT/SPP di ITI dapat diperoleh dari bagian Keuangan atau diakses melalui portal SIAKAD. Pembayaran dilakukan melalui bank yang ditunjuk.",
+        "Untuk informasi beasiswa dan keringanan UKT, hubungi bagian Kemahasiswaan ITI. Terdapat beberapa program beasiswa yang tersedia untuk mahasiswa berprestasi.",
+        "Tagihan akademik dapat dilihat di SIAKAD ITI. Pastikan pembayaran dilakukan sebelum batas waktu yang ditentukan agar tidak terkena sanksi akademik."
+      ]
+    },
+    {
+      "tag": "dosen",
+      "patterns": [
+        "daftar dosen", "dosen informatika", "kontak dosen", "dosen pembimbing",
+        "jadwal konsultasi dosen", "dosen wali", "email dosen", "dosen koordinator",
+        "kaprodi informatika", "staff pengajar"
+      ],
+      "responses": [
+        "Daftar dosen Prodi Teknik Informatika ITI dapat dilihat di website resmi ITI (www.iti.ac.id) pada menu Akademik → Dosen. Informasi kontak dosen juga tersedia di sana.",
+        "Untuk mengetahui dosen pembimbing akademik (DPA) Anda, cek di SIAKAD ITI atau tanyakan ke bagian akademik Prodi Teknik Informatika.",
+        "Jadwal konsultasi dosen biasanya diumumkan di awal semester. Anda dapat menghubungi dosen melalui email resmi atau melalui sekretariat prodi."
+      ]
+    },
+    {
+      "tag": "cuti",
+      "patterns": [
+        "cuti kuliah", "cara cuti", "syarat cuti", "cuti akademik",
+        "cuti semester", "prosedur cuti", "formulir cuti", "lama cuti"
+      ],
+      "responses": [
+        "Prosedur pengajuan cuti akademik: isi formulir cuti di bagian akademik → persetujuan Kaprodi → persetujuan Dekan → lapor ke bagian keuangan. Cuti maksimal 2 semester berturut-turut.",
+        "Mahasiswa yang ingin cuti akademik harus mengajukan permohonan sebelum periode KRS. Syarat: tidak dalam masa sanksi akademik dan tidak memiliki tanggungan administrasi.",
+        "Formulir cuti akademik tersedia di Tata Usaha Prodi. Masa cuti diperhitungkan dalam masa studi aktif mahasiswa."
+      ]
+    },
+    {
+      "tag": "wisuda",
+      "patterns": [
+        "syarat wisuda", "pendaftaran wisuda", "kapan wisuda", "jadwal wisuda",
+        "toga wisuda", "prosedur wisuda", "yudisium", "surat keterangan lulus"
+      ],
+      "responses": [
+        "Syarat wisuda di ITI: telah lulus semua mata kuliah (minimal 144 SKS), IPK ≥ 2.00, lulus sidang TA, tidak ada tanggungan administrasi, dan sudah mengikuti yudisium.",
+        "Pendaftaran wisuda dilakukan melalui portal SIAKAD atau bagian akademik ITI. Jadwal wisuda diumumkan secara resmi oleh pihak universitas.",
+        "Sebelum wisuda, mahasiswa wajib mengikuti yudisium di tingkat prodi. Informasi lengkap mengenai prosedur wisuda dapat diperoleh dari bagian akademik."
+      ]
+    },
+    {
+      "tag": "kemampuan_bot",
+      "patterns": [
+        "apa yang bisa kamu bantu", "kamu bisa apa", "fitur chatbot",
+        "informasi apa saja", "bantuan apa yang tersedia", "menu chatbot",
+        "chatbot bisa jawab apa", "kamu siapa", "siapa kamu"
+      ],
+      "responses": [
+        "Saya adalah chatbot layanan informasi akademik Prodi Teknik Informatika ITI. Saya dapat membantu Anda dengan informasi seputar: KRS, jadwal kuliah, nilai, tugas akhir, lokasi kampus, pembayaran, informasi dosen, cuti akademik, dan wisuda.",
+        "Saya dapat menjawab pertanyaan seputar: pengisian KRS, jadwal perkuliahan, pengecekan nilai, prosedur Tugas Akhir, lokasi fasilitas kampus, biaya kuliah, data dosen, cuti, dan wisuda. Silakan ajukan pertanyaan Anda!"
+      ]
+    }
+  ]
+}
